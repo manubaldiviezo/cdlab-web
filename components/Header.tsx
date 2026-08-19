@@ -40,16 +40,15 @@ export default function Header() {
         <button
           type="button"
           onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-          className="rounded-lg bg-white px-2 py-1.5 shadow-sm"
           aria-label="Ir al inicio"
         >
           <Image
             src="/images/logo-cdlab.png"
             alt="CDLab · Laboratorio Clínico"
-            width={1536}
-            height={1024}
+            width={2659}
+            height={1051}
             priority
-            className="h-9 w-auto sm:h-11"
+            className="h-8 w-auto sm:h-10"
           />
         </button>
 

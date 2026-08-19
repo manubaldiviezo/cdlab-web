@@ -16,7 +16,9 @@ export interface CotizacionPDFProps {
 
 const styles = StyleSheet.create({
   page: {
-    padding: 32,
+    paddingTop: 0,
+    paddingHorizontal: 32,
+    paddingBottom: 32,
     fontSize: 10,
     fontFamily: "Helvetica",
     color: "#1a1a1a",
@@ -24,15 +26,16 @@ const styles = StyleSheet.create({
   headerRow: {
     flexDirection: "row",
     alignItems: "center",
-    borderBottomWidth: 2,
-    borderBottomColor: "#054171",
-    paddingBottom: 12,
-    marginBottom: 16,
+    backgroundColor: "#054171",
+    marginHorizontal: -32,
+    paddingHorizontal: 32,
+    paddingVertical: 18,
+    marginBottom: 20,
   },
-  logo: { width: 90, height: 60, marginRight: 12 },
+  logo: { width: 114, height: 45, marginRight: 14 },
   headerText: { flex: 1 },
-  brand: { fontSize: 14, fontWeight: 700, color: "#054171" },
-  contactLine: { fontSize: 9, color: "#444", marginTop: 2 },
+  brand: { fontSize: 14, fontWeight: 700, color: "#ffffff" },
+  contactLine: { fontSize: 9, color: "#cfe0ee", marginTop: 2 },
   title: { fontSize: 16, fontWeight: 700, color: "#054171", marginBottom: 2 },
   emissionDate: { fontSize: 9, color: "#666", marginBottom: 16 },
   sectionLabel: {

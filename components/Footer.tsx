@@ -15,15 +15,13 @@ export default function Footer() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col items-start justify-between gap-8 md:flex-row">
           <div>
-            <div className="inline-block rounded-lg bg-white px-2 py-1.5">
-              <Image
-                src="/images/logo-cdlab.png"
-                alt="CDLab · Laboratorio Clínico"
-                width={1536}
-                height={1024}
-                className="h-10 w-auto"
-              />
-            </div>
+            <Image
+              src="/images/logo-cdlab.png"
+              alt="CDLab · Laboratorio Clínico"
+              width={2659}
+              height={1051}
+              className="h-9 w-auto"
+            />
             <p className="mt-4 max-w-xs text-sm text-blue-100">{siteConfig.address}</p>
           </div>
 
